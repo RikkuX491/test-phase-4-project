@@ -75,13 +75,13 @@ move one level up with `cd ..` and run `mv python-p4-project-template
 
 `cd` back into your new directory and run `git init` to create a local git
 repository. Add all of your local files to version control with `git add --all`,
-then commit them with `git commit -m'initial commit'`. (You can change the
+then commit them with `git commit -m 'initial commit'`. (You can change the
 message here- this one is just a common choice.)
 
 Navigate to [GitHub](https://github.com). In the upper-right corner of the page,
 click on the "+" dropdown menu, then select "New repository". Enter the name of
 your local repo, choose whether you would like it to be public or private, make
-sure "Initialize this repository with a README" is unchecked (you already have
+sure "Add a README file" is unchecked (you already have
 one), then click "Create repository".
 
 Head back to the command line and enter `git remote add origin <project name>
